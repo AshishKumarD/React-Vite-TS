@@ -9,7 +9,7 @@ function Second() {
   return (
     <>
     
-    <div className="absolute py-10 bg-orange-50 w-full h-full" />
+    <div className="absolute py-10 bg-orange-50 w-full h-screen" />
     <h2 className="relative z-15 ml-10 my-10 scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
     Instant Dive into Your Performance Metrics
     </h2>
