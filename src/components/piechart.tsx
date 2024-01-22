@@ -21,12 +21,12 @@ export function Chart() {
     <CardDescription>Total Orders: 394</CardDescription>
   </CardHeader>
   <div className="ml-10 flex overflow-auto justify-start gap-2 mb-10">
-    <Button variant="outline">Lifetime</Button>
-    <Button variant="outline">Last Week</Button>
-    <Button variant="outline">Last Month</Button>
-    <Button variant="outline">Last Year</Button>
+    <Button variant="outline">Delivered</Button>
+    <Button variant="outline">Out for delivery</Button>
+    <Button variant="outline">Intransit</Button>
+    <Button variant="outline">Pending</Button>
     <Button variant="outline">
-          Customize Time Line 
+          Exception
     </Button>
     </div>
   <CardContent className="flex justify-around">
